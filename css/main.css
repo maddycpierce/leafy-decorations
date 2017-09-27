@@ -9,7 +9,7 @@ html {
   border-bottom: 3px solid #2d5a4d;
   background-image: url("../images/leaf-bg.svg");
   background-size: 64px auto;
-  background-repeat: auto;
+  background-repeat: repeat;
   background-position: left top;
 }
 
@@ -40,8 +40,8 @@ html {
 
 .banner {
   background-image:
-  linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)),
-  url("../images/banner.jpg");
+    linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)),
+    url("../images/banner.jpg");
   background-size: cover;
   background-position: center bottom;
   border-bottom: 3px solid #145b1d;
